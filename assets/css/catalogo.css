@@ -20,12 +20,12 @@ body::before {
     right: 0;
 }
 
-#logo {
+.menu #logo {
     width: 120px;
     height: 40px;
 }
 
-#pesq{
+.pesquisar #pesq{
     display: flex;
     width: 100%;
     padding-left: 100px;
@@ -33,16 +33,16 @@ body::before {
     padding-top: 70px;
 }
 
-#pesq form{
+.pesquisar #pesq form{
     width: 100%;
 }
 
-#pesq button{
+.pesquisar #pesq button{
     background-color: orangered;
     border-color: orangered;
 }
 
-#pesq button:hover{
+.pesquisar #pesq button:hover{
     background-color: orange;
     border-color: orange;
 }
@@ -105,7 +105,7 @@ body::before {
 }
 
 @media (max-width: 700px){
-    #pesq{
+    .pesquisar #pesq{
         display: flex;
         width: 100%;
         padding-left: 30px;
